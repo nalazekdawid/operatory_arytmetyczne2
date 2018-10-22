@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:operatory_arytmetyczne"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Initialized="Grid_Initialized">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Pierwszy argument" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="387,13,0,0" TextWrapping="Wrap" Text="Drugi argument" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="40,184,0,0" TextWrapping="Wrap" Text="działanie:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="40,205,0,0" TextWrapping="Wrap" Text="wynik:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="105,184,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="105,205,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Koniec" HorizontalAlignment="Left" Margin="396,184,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="button1_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="387,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0"/>
+        <RadioButton x:Name="radioButton" Content="+ dodawanie" HorizontalAlignment="Left" Margin="206,63,0,0" VerticalAlignment="Top" Checked="radioButton_Checked" IsChecked="True"/>
+        <RadioButton x:Name="radioButton1" Content="- odejmowanie" HorizontalAlignment="Left" Margin="206,83,0,0" VerticalAlignment="Top" Checked="radioButton1_Checked"/>
+        <RadioButton x:Name="radioButton2" Content="* mnożenie" HorizontalAlignment="Left" Margin="206,103,0,0" VerticalAlignment="Top" Checked="radioButton2_Checked"/>
+        <RadioButton x:Name="radioButton3" Content="/ dzielenie" HorizontalAlignment="Left" Margin="206,123,0,0" VerticalAlignment="Top" Checked="radioButton3_Checked"/>
+        <RadioButton x:Name="radioButton4" Content="% modulo" HorizontalAlignment="Left" Margin="206,143,0,0" VerticalAlignment="Top" Checked="radioButton4_Checked"/>
+
     </Grid>
 </Window>
